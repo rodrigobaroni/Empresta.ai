@@ -1,6 +1,5 @@
 PODS:
   - Fusuma (1.2.4)
-  - Parchment (1.2.0)
   - Realm (3.5.0):
     - Realm/Headers (= 3.5.0)
   - Realm/Headers (3.5.0)
@@ -14,10 +13,10 @@ PODS:
   - SwiftMoment (0.7)
   - TextFieldEffects (1.4.0)
   - "UITextField+Shake (1.2.1)"
+  - XLPagerTabStrip (8.0.1)
 
 DEPENDENCIES:
   - Fusuma
-  - Parchment
   - RealmSwift (~> 3.5)
   - SCLAlertView
   - SDWebImage (~> 4.0)
@@ -25,11 +24,11 @@ DEPENDENCIES:
   - SwiftMoment
   - TextFieldEffects
   - "UITextField+Shake (~> 1.2)"
+  - XLPagerTabStrip (~> 8.0)
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - Fusuma
-    - Parchment
     - Realm
     - RealmSwift
     - SCLAlertView
@@ -38,10 +37,10 @@ SPEC REPOS:
     - SwiftMoment
     - TextFieldEffects
     - "UITextField+Shake"
+    - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
-  Parchment: e3aa960329b6c081efa352960948eb1125fbdd3e
   Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
   RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
@@ -50,7 +49,8 @@ SPEC CHECKSUMS:
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
   TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
   "UITextField+Shake": 298ac5a0f239d731bdab999b19b628c956ca0ac3
+  XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: d904e139c63c83d8bd3b612b87a129172bf1ab84
+PODFILE CHECKSUM: c454b3fa256add42c3fde0bdef25a6890c2b9c5a
 
 COCOAPODS: 1.5.0

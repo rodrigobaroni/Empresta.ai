@@ -7,7 +7,7 @@ target 'Empresta.ai' do
 
   # Pods for Empresta.ai
 	
-	pod 'Parchment'
+	pod 'XLPagerTabStrip', '~> 8.0'
 	pod 'SideMenu'
 	pod 'RealmSwift', '~> 3.5'
 	pod 'SwiftMoment'

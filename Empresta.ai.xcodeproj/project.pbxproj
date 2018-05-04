@@ -10,6 +10,8 @@
 		15045889718A6B72D06F9B37 /* Pods_Empresta_ai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269FDD756D7AF650E0B8873 /* Pods_Empresta_ai.framework */; };
 		214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAB209CCD83000EEC43 /* VC_Main.swift */; };
 		214BDAAE209CCF3B000EEC43 /* VC_SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */; };
+		214BDAB0209CDE76000EEC43 /* VC_Ativos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */; };
+		214BDAB2209CDE8F000EEC43 /* VC_Atrasados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */; };
 		21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D5209C856A00CCEC68 /* AppDelegate.swift */; };
 		21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D7209C856A00CCEC68 /* ViewController.swift */; };
 		21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15D9209C856A00CCEC68 /* Main.storyboard */; };
@@ -41,6 +43,8 @@
 /* Begin PBXFileReference section */
 		214BDAAB209CCD83000EEC43 /* VC_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Main.swift; sourceTree = "<group>"; };
 		214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_SideMenu.swift; sourceTree = "<group>"; };
+		214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Ativos.swift; sourceTree = "<group>"; };
+		214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Atrasados.swift; sourceTree = "<group>"; };
 		21EC15D2209C856A00CCEC68 /* Empresta.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empresta.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC15D5209C856A00CCEC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21EC15D7209C856A00CCEC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 				21EC15D5209C856A00CCEC68 /* AppDelegate.swift */,
 				21EC15D7209C856A00CCEC68 /* ViewController.swift */,
 				21EC15D9209C856A00CCEC68 /* Main.storyboard */,
+				214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */,
+				214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */,
 				214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */,
 				214BDAAB209CCD83000EEC43 /* VC_Main.swift */,
 				21EC15DC209C856B00CCEC68 /* Assets.xcassets */,
@@ -364,7 +370,6 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Empresta.ai/Pods-Empresta.ai-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Fusuma/Fusuma.framework",
-				"${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
@@ -373,11 +378,11 @@
 				"${BUILT_PRODUCTS_DIR}/SwiftMoment/SwiftMoment.framework",
 				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
 				"${BUILT_PRODUCTS_DIR}/UITextField+Shake/UITextField_Shake.framework",
+				"${BUILT_PRODUCTS_DIR}/XLPagerTabStrip/XLPagerTabStrip.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parchment.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
@@ -386,6 +391,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMoment.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextField_Shake.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XLPagerTabStrip.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -402,7 +408,9 @@
 				21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */,
 				214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */,
 				214BDAAE209CCF3B000EEC43 /* VC_SideMenu.swift in Sources */,
+				214BDAB0209CDE76000EEC43 /* VC_Ativos.swift in Sources */,
 				21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */,
+				214BDAB2209CDE8F000EEC43 /* VC_Atrasados.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,10 +588,7 @@
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.ai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -600,10 +605,7 @@
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.ai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -620,11 +622,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -642,11 +640,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -663,11 +657,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -684,11 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
