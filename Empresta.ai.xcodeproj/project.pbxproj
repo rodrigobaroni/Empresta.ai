@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D5209C856A00CCEC68 /* AppDelegate.swift */; };
+		21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D7209C856A00CCEC68 /* ViewController.swift */; };
+		21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15D9209C856A00CCEC68 /* Main.storyboard */; };
+		21EC15DD209C856B00CCEC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15DC209C856B00CCEC68 /* Assets.xcassets */; };
+		21EC15E0209C856B00CCEC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */; };
+		21EC15EB209C856C00CCEC68 /* Empresta_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15EA209C856C00CCEC68 /* Empresta_aiTests.swift */; };
+		21EC15F6209C856C00CCEC68 /* Empresta_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15F5209C856C00CCEC68 /* Empresta_aiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21EC15E7209C856C00CCEC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21EC15CA209C856A00CCEC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EC15D1209C856A00CCEC68;
+			remoteInfo = Empresta.ai;
+		};
+		21EC15F2209C856C00CCEC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21EC15CA209C856A00CCEC68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21EC15D1209C856A00CCEC68;
+			remoteInfo = Empresta.ai;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21EC15D2209C856A00CCEC68 /* Empresta.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empresta.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC15D5209C856A00CCEC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21EC15D7209C856A00CCEC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21EC15DA209C856A00CCEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21EC15DC209C856B00CCEC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21EC15DF209C856B00CCEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21EC15E1209C856B00CCEC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EC15E6209C856C00CCEC68 /* Empresta.aiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Empresta.aiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC15EA209C856C00CCEC68 /* Empresta_aiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresta_aiTests.swift; sourceTree = "<group>"; };
+		21EC15EC209C856C00CCEC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21EC15F1209C856C00CCEC68 /* Empresta.aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Empresta.aiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21EC15F5209C856C00CCEC68 /* Empresta_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresta_aiUITests.swift; sourceTree = "<group>"; };
+		21EC15F7209C856C00CCEC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21EC15CF209C856A00CCEC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC15E3209C856C00CCEC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC15EE209C856C00CCEC68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21EC15C9209C856A00CCEC68 = {
+			isa = PBXGroup;
+			children = (
+				21EC15D4209C856A00CCEC68 /* Empresta.ai */,
+				21EC15E9209C856C00CCEC68 /* Empresta.aiTests */,
+				21EC15F4209C856C00CCEC68 /* Empresta.aiUITests */,
+				21EC15D3209C856A00CCEC68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21EC15D3209C856A00CCEC68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21EC15D2209C856A00CCEC68 /* Empresta.ai.app */,
+				21EC15E6209C856C00CCEC68 /* Empresta.aiTests.xctest */,
+				21EC15F1209C856C00CCEC68 /* Empresta.aiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21EC15D4209C856A00CCEC68 /* Empresta.ai */ = {
+			isa = PBXGroup;
+			children = (
+				21EC15D5209C856A00CCEC68 /* AppDelegate.swift */,
+				21EC15D7209C856A00CCEC68 /* ViewController.swift */,
+				21EC15D9209C856A00CCEC68 /* Main.storyboard */,
+				21EC15DC209C856B00CCEC68 /* Assets.xcassets */,
+				21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */,
+				21EC15E1209C856B00CCEC68 /* Info.plist */,
+			);
+			path = Empresta.ai;
+			sourceTree = "<group>";
+		};
+		21EC15E9209C856C00CCEC68 /* Empresta.aiTests */ = {
+			isa = PBXGroup;
+			children = (
+				21EC15EA209C856C00CCEC68 /* Empresta_aiTests.swift */,
+				21EC15EC209C856C00CCEC68 /* Info.plist */,
+			);
+			path = Empresta.aiTests;
+			sourceTree = "<group>";
+		};
+		21EC15F4209C856C00CCEC68 /* Empresta.aiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				21EC15F5209C856C00CCEC68 /* Empresta_aiUITests.swift */,
+				21EC15F7209C856C00CCEC68 /* Info.plist */,
+			);
+			path = Empresta.aiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21EC15D1209C856A00CCEC68 /* Empresta.ai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EC15FA209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.ai" */;
+			buildPhases = (
+				21EC15CE209C856A00CCEC68 /* Sources */,
+				21EC15CF209C856A00CCEC68 /* Frameworks */,
+				21EC15D0209C856A00CCEC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Empresta.ai;
+			productName = Empresta.ai;
+			productReference = 21EC15D2209C856A00CCEC68 /* Empresta.ai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21EC15E5209C856C00CCEC68 /* Empresta.aiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EC15FD209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.aiTests" */;
+			buildPhases = (
+				21EC15E2209C856C00CCEC68 /* Sources */,
+				21EC15E3209C856C00CCEC68 /* Frameworks */,
+				21EC15E4209C856C00CCEC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EC15E8209C856C00CCEC68 /* PBXTargetDependency */,
+			);
+			name = Empresta.aiTests;
+			productName = Empresta.aiTests;
+			productReference = 21EC15E6209C856C00CCEC68 /* Empresta.aiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		21EC15F0209C856C00CCEC68 /* Empresta.aiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21EC1600209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.aiUITests" */;
+			buildPhases = (
+				21EC15ED209C856C00CCEC68 /* Sources */,
+				21EC15EE209C856C00CCEC68 /* Frameworks */,
+				21EC15EF209C856C00CCEC68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21EC15F3209C856C00CCEC68 /* PBXTargetDependency */,
+			);
+			name = Empresta.aiUITests;
+			productName = Empresta.aiUITests;
+			productReference = 21EC15F1209C856C00CCEC68 /* Empresta.aiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21EC15CA209C856A00CCEC68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = rodrigo;
+				TargetAttributes = {
+					21EC15D1209C856A00CCEC68 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					21EC15E5209C856C00CCEC68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 21EC15D1209C856A00CCEC68;
+					};
+					21EC15F0209C856C00CCEC68 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 21EC15D1209C856A00CCEC68;
+					};
+				};
+			};
+			buildConfigurationList = 21EC15CD209C856A00CCEC68 /* Build configuration list for PBXProject "Empresta.ai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21EC15C9209C856A00CCEC68;
+			productRefGroup = 21EC15D3209C856A00CCEC68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21EC15D1209C856A00CCEC68 /* Empresta.ai */,
+				21EC15E5209C856C00CCEC68 /* Empresta.aiTests */,
+				21EC15F0209C856C00CCEC68 /* Empresta.aiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21EC15D0209C856A00CCEC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC15E0209C856B00CCEC68 /* LaunchScreen.storyboard in Resources */,
+				21EC15DD209C856B00CCEC68 /* Assets.xcassets in Resources */,
+				21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC15E4209C856C00CCEC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC15EF209C856C00CCEC68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21EC15CE209C856A00CCEC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */,
+				21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC15E2209C856C00CCEC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC15EB209C856C00CCEC68 /* Empresta_aiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21EC15ED209C856C00CCEC68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21EC15F6209C856C00CCEC68 /* Empresta_aiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21EC15E8209C856C00CCEC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EC15D1209C856A00CCEC68 /* Empresta.ai */;
+			targetProxy = 21EC15E7209C856C00CCEC68 /* PBXContainerItemProxy */;
+		};
+		21EC15F3209C856C00CCEC68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21EC15D1209C856A00CCEC68 /* Empresta.ai */;
+			targetProxy = 21EC15F2209C856C00CCEC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21EC15D9209C856A00CCEC68 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EC15DA209C856A00CCEC68 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21EC15DF209C856B00CCEC68 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21EC15F8209C856C00CCEC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		21EC15F9209C856C00CCEC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21EC15FB209C856C00CCEC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = Empresta.ai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21EC15FC209C856C00CCEC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = Empresta.ai/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		21EC15FE209C856C00CCEC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = Empresta.aiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Empresta.ai.app/Empresta.ai";
+			};
+			name = Debug;
+		};
+		21EC15FF209C856C00CCEC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = Empresta.aiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Empresta.ai.app/Empresta.ai";
+			};
+			name = Release;
+		};
+		21EC1601209C856C00CCEC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = Empresta.aiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Empresta.ai;
+			};
+			name = Debug;
+		};
+		21EC1602209C856C00CCEC68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NWJLUZKG48;
+				INFOPLIST_FILE = Empresta.aiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Empresta.ai;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21EC15CD209C856A00CCEC68 /* Build configuration list for PBXProject "Empresta.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC15F8209C856C00CCEC68 /* Debug */,
+				21EC15F9209C856C00CCEC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EC15FA209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.ai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC15FB209C856C00CCEC68 /* Debug */,
+				21EC15FC209C856C00CCEC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EC15FD209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.aiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC15FE209C856C00CCEC68 /* Debug */,
+				21EC15FF209C856C00CCEC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21EC1600209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.aiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21EC1601209C856C00CCEC68 /* Debug */,
+				21EC1602209C856C00CCEC68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21EC15CA209C856A00CCEC68 /* Project object */;
+}
