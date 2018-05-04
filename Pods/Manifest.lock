@@ -1,0 +1,56 @@
+PODS:
+  - Fusuma (1.2.4)
+  - Parchment (1.2.0)
+  - Realm (3.5.0):
+    - Realm/Headers (= 3.5.0)
+  - Realm/Headers (3.5.0)
+  - RealmSwift (3.5.0):
+    - Realm (= 3.5.0)
+  - SCLAlertView (0.8)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SideMenu (3.1.5)
+  - SwiftMoment (0.7)
+  - TextFieldEffects (1.4.0)
+  - "UITextField+Shake (1.2.1)"
+
+DEPENDENCIES:
+  - Fusuma
+  - Parchment
+  - RealmSwift (~> 3.5)
+  - SCLAlertView
+  - SDWebImage (~> 4.0)
+  - SideMenu
+  - SwiftMoment
+  - TextFieldEffects
+  - "UITextField+Shake (~> 1.2)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Fusuma
+    - Parchment
+    - Realm
+    - RealmSwift
+    - SCLAlertView
+    - SDWebImage
+    - SideMenu
+    - SwiftMoment
+    - TextFieldEffects
+    - "UITextField+Shake"
+
+SPEC CHECKSUMS:
+  Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
+  Parchment: e3aa960329b6c081efa352960948eb1125fbdd3e
+  Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
+  RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
+  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
+  "UITextField+Shake": 298ac5a0f239d731bdab999b19b628c956ca0ac3
+
+PODFILE CHECKSUM: d904e139c63c83d8bd3b612b87a129172bf1ab84
+
+COCOAPODS: 1.5.0

@@ -1,0 +1,6 @@
+framework module Pods_Empresta_aiTests {
+  umbrella header "Pods-Empresta.aiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

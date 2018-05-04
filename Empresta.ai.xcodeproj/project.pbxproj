@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15045889718A6B72D06F9B37 /* Pods_Empresta_ai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269FDD756D7AF650E0B8873 /* Pods_Empresta_ai.framework */; };
+		214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAB209CCD83000EEC43 /* VC_Main.swift */; };
+		214BDAAE209CCF3B000EEC43 /* VC_SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */; };
 		21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D5209C856A00CCEC68 /* AppDelegate.swift */; };
 		21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D7209C856A00CCEC68 /* ViewController.swift */; };
 		21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15D9209C856A00CCEC68 /* Main.storyboard */; };
@@ -14,6 +17,8 @@
 		21EC15E0209C856B00CCEC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */; };
 		21EC15EB209C856C00CCEC68 /* Empresta_aiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15EA209C856C00CCEC68 /* Empresta_aiTests.swift */; };
 		21EC15F6209C856C00CCEC68 /* Empresta_aiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15F5209C856C00CCEC68 /* Empresta_aiUITests.swift */; };
+		2CF15ACCCCEB790C461ACA38 /* Pods_Empresta_aiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 627244874D4CA65A82678F4A /* Pods_Empresta_aiUITests.framework */; };
+		8313133B1C2D32A2FA48A6C7 /* Pods_Empresta_aiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A0621E47A73A86D3EBB7516 /* Pods_Empresta_aiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		214BDAAB209CCD83000EEC43 /* VC_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Main.swift; sourceTree = "<group>"; };
+		214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_SideMenu.swift; sourceTree = "<group>"; };
 		21EC15D2209C856A00CCEC68 /* Empresta.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empresta.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC15D5209C856A00CCEC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21EC15D7209C856A00CCEC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +54,15 @@
 		21EC15F1209C856C00CCEC68 /* Empresta.aiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Empresta.aiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC15F5209C856C00CCEC68 /* Empresta_aiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Empresta_aiUITests.swift; sourceTree = "<group>"; };
 		21EC15F7209C856C00CCEC68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5269FDD756D7AF650E0B8873 /* Pods_Empresta_ai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Empresta_ai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		627244874D4CA65A82678F4A /* Pods_Empresta_aiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Empresta_aiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0621E47A73A86D3EBB7516 /* Pods_Empresta_aiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Empresta_aiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D7A943F6EE9E6F0F977806C /* Pods-Empresta.aiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Empresta.aiUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Empresta.aiUITests/Pods-Empresta.aiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0FCDBFF0B659DD8DB588E0 /* Pods-Empresta.aiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Empresta.aiUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Empresta.aiUITests/Pods-Empresta.aiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D776FC501930D2A2837A50C /* Pods-Empresta.aiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Empresta.aiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Empresta.aiTests/Pods-Empresta.aiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A3B98294B463FFCFB4151C4A /* Pods-Empresta.ai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Empresta.ai.release.xcconfig"; path = "Pods/Target Support Files/Pods-Empresta.ai/Pods-Empresta.ai.release.xcconfig"; sourceTree = "<group>"; };
+		ED9A3BC35D13CCE2EAB32AF0 /* Pods-Empresta.ai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Empresta.ai.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Empresta.ai/Pods-Empresta.ai.debug.xcconfig"; sourceTree = "<group>"; };
+		F8E65402C0CE77F58A382A3D /* Pods-Empresta.aiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Empresta.aiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Empresta.aiTests/Pods-Empresta.aiTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15045889718A6B72D06F9B37 /* Pods_Empresta_ai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8313133B1C2D32A2FA48A6C7 /* Pods_Empresta_aiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CF15ACCCCEB790C461ACA38 /* Pods_Empresta_aiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +100,8 @@
 				21EC15E9209C856C00CCEC68 /* Empresta.aiTests */,
 				21EC15F4209C856C00CCEC68 /* Empresta.aiUITests */,
 				21EC15D3209C856A00CCEC68 /* Products */,
+				DC1CF440472EDA8A8730841C /* Pods */,
+				A16E876FD0A89B6B50E121BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +121,8 @@
 				21EC15D5209C856A00CCEC68 /* AppDelegate.swift */,
 				21EC15D7209C856A00CCEC68 /* ViewController.swift */,
 				21EC15D9209C856A00CCEC68 /* Main.storyboard */,
+				214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */,
+				214BDAAB209CCD83000EEC43 /* VC_Main.swift */,
 				21EC15DC209C856B00CCEC68 /* Assets.xcassets */,
 				21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */,
 				21EC15E1209C856B00CCEC68 /* Info.plist */,
@@ -125,6 +148,29 @@
 			path = Empresta.aiUITests;
 			sourceTree = "<group>";
 		};
+		A16E876FD0A89B6B50E121BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5269FDD756D7AF650E0B8873 /* Pods_Empresta_ai.framework */,
+				7A0621E47A73A86D3EBB7516 /* Pods_Empresta_aiTests.framework */,
+				627244874D4CA65A82678F4A /* Pods_Empresta_aiUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC1CF440472EDA8A8730841C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED9A3BC35D13CCE2EAB32AF0 /* Pods-Empresta.ai.debug.xcconfig */,
+				A3B98294B463FFCFB4151C4A /* Pods-Empresta.ai.release.xcconfig */,
+				9D776FC501930D2A2837A50C /* Pods-Empresta.aiTests.debug.xcconfig */,
+				F8E65402C0CE77F58A382A3D /* Pods-Empresta.aiTests.release.xcconfig */,
+				9A0FCDBFF0B659DD8DB588E0 /* Pods-Empresta.aiUITests.debug.xcconfig */,
+				7D7A943F6EE9E6F0F977806C /* Pods-Empresta.aiUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21EC15FA209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.ai" */;
 			buildPhases = (
+				05A0635F09773FE0999BD205 /* [CP] Check Pods Manifest.lock */,
 				21EC15CE209C856A00CCEC68 /* Sources */,
 				21EC15CF209C856A00CCEC68 /* Frameworks */,
 				21EC15D0209C856A00CCEC68 /* Resources */,
+				8215DE47B580CBB89426227E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21EC15FD209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.aiTests" */;
 			buildPhases = (
+				16FEE3494A075FDBCACFF3F4 /* [CP] Check Pods Manifest.lock */,
 				21EC15E2209C856C00CCEC68 /* Sources */,
 				21EC15E3209C856C00CCEC68 /* Frameworks */,
 				21EC15E4209C856C00CCEC68 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 21EC1600209C856C00CCEC68 /* Build configuration list for PBXNativeTarget "Empresta.aiUITests" */;
 			buildPhases = (
+				4DEE1AE0D79EF985B52E1029 /* [CP] Check Pods Manifest.lock */,
 				21EC15ED209C856C00CCEC68 /* Sources */,
 				21EC15EE209C856C00CCEC68 /* Frameworks */,
 				21EC15EF209C856C00CCEC68 /* Resources */,
@@ -251,12 +301,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05A0635F09773FE0999BD205 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Empresta.ai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		16FEE3494A075FDBCACFF3F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Empresta.aiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DEE1AE0D79EF985B52E1029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Empresta.aiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8215DE47B580CBB89426227E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Empresta.ai/Pods-Empresta.ai-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Fusuma/Fusuma.framework",
+				"${BUILT_PRODUCTS_DIR}/Parchment/Parchment.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMoment/SwiftMoment.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/UITextField+Shake/UITextField_Shake.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parchment.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMoment.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UITextField_Shake.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Empresta.ai/Pods-Empresta.ai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		21EC15CE209C856A00CCEC68 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */,
+				214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */,
+				214BDAAE209CCF3B000EEC43 /* VC_SideMenu.swift in Sources */,
 				21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,11 +573,13 @@
 		};
 		21EC15FB209C856C00CCEC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9A3BC35D13CCE2EAB32AF0 /* Pods-Empresta.ai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.ai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,17 +587,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		21EC15FC209C856C00CCEC68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3B98294B463FFCFB4151C4A /* Pods-Empresta.ai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.ai/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,12 +607,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		21EC15FE209C856C00CCEC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D776FC501930D2A2837A50C /* Pods-Empresta.aiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +635,7 @@
 		};
 		21EC15FF209C856C00CCEC68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8E65402C0CE77F58A382A3D /* Pods-Empresta.aiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +657,7 @@
 		};
 		21EC1601209C856C00CCEC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0FCDBFF0B659DD8DB588E0 /* Pods-Empresta.aiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +678,7 @@
 		};
 		21EC1602209C856C00CCEC68 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D7A943F6EE9E6F0F977806C /* Pods-Empresta.aiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
