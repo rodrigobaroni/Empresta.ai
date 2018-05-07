@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		15045889718A6B72D06F9B37 /* Pods_Empresta_ai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269FDD756D7AF650E0B8873 /* Pods_Empresta_ai.framework */; };
+		2128543020A099E600CBCDC7 /* VC_Emprestar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128542F20A099E600CBCDC7 /* VC_Emprestar.swift */; };
+		2128543220A0BD4000CBCDC7 /* VC_Contatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543120A0BD4000CBCDC7 /* VC_Contatos.swift */; };
+		2128543420A0BD9200CBCDC7 /* VC_Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543320A0BD9200CBCDC7 /* VC_Historico.swift */; };
+		2128543620A0BD9C00CBCDC7 /* VC_Perfil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543520A0BD9C00CBCDC7 /* VC_Perfil.swift */; };
+		2128543820A0BDAC00CBCDC7 /* VC_Configuracoes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543720A0BDAC00CBCDC7 /* VC_Configuracoes.swift */; };
+		2128543A20A0BDB700CBCDC7 /* VC_Sobre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543920A0BDB700CBCDC7 /* VC_Sobre.swift */; };
 		214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAB209CCD83000EEC43 /* VC_Main.swift */; };
 		214BDAAE209CCF3B000EEC43 /* VC_SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */; };
 		214BDAB0209CDE76000EEC43 /* VC_Ativos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */; };
 		214BDAB2209CDE8F000EEC43 /* VC_Atrasados.swift in Sources */ = {isa = PBXBuildFile; fileRef = 214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */; };
 		21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D5209C856A00CCEC68 /* AppDelegate.swift */; };
-		21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D7209C856A00CCEC68 /* ViewController.swift */; };
 		21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15D9209C856A00CCEC68 /* Main.storyboard */; };
 		21EC15DD209C856B00CCEC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15DC209C856B00CCEC68 /* Assets.xcassets */; };
 		21EC15E0209C856B00CCEC68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */; };
@@ -41,13 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2128542F20A099E600CBCDC7 /* VC_Emprestar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Emprestar.swift; sourceTree = "<group>"; };
+		2128543120A0BD4000CBCDC7 /* VC_Contatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Contatos.swift; sourceTree = "<group>"; };
+		2128543320A0BD9200CBCDC7 /* VC_Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Historico.swift; sourceTree = "<group>"; };
+		2128543520A0BD9C00CBCDC7 /* VC_Perfil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Perfil.swift; sourceTree = "<group>"; };
+		2128543720A0BDAC00CBCDC7 /* VC_Configuracoes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Configuracoes.swift; sourceTree = "<group>"; };
+		2128543920A0BDB700CBCDC7 /* VC_Sobre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Sobre.swift; sourceTree = "<group>"; };
 		214BDAAB209CCD83000EEC43 /* VC_Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Main.swift; sourceTree = "<group>"; };
 		214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_SideMenu.swift; sourceTree = "<group>"; };
 		214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Ativos.swift; sourceTree = "<group>"; };
 		214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Atrasados.swift; sourceTree = "<group>"; };
 		21EC15D2209C856A00CCEC68 /* Empresta.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empresta.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC15D5209C856A00CCEC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		21EC15D7209C856A00CCEC68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		21EC15DA209C856A00CCEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		21EC15DC209C856B00CCEC68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		21EC15DF209C856B00CCEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -97,6 +107,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2128543B20A0BE5900CBCDC7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */,
+				2128543C20A0BEA200CBCDC7 /* Main */,
+				2128542F20A099E600CBCDC7 /* VC_Emprestar.swift */,
+				2128543120A0BD4000CBCDC7 /* VC_Contatos.swift */,
+				2128543320A0BD9200CBCDC7 /* VC_Historico.swift */,
+				2128543520A0BD9C00CBCDC7 /* VC_Perfil.swift */,
+				2128543720A0BDAC00CBCDC7 /* VC_Configuracoes.swift */,
+				2128543920A0BDB700CBCDC7 /* VC_Sobre.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2128543C20A0BEA200CBCDC7 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */,
+				214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */,
+				214BDAAB209CCD83000EEC43 /* VC_Main.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		2128543D20A0BF4E00CBCDC7 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				21EC15D9209C856A00CCEC68 /* Main.storyboard */,
+				21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		21EC15C9209C856A00CCEC68 = {
 			isa = PBXGroup;
 			children = (
@@ -123,14 +167,9 @@
 			isa = PBXGroup;
 			children = (
 				21EC15D5209C856A00CCEC68 /* AppDelegate.swift */,
-				21EC15D7209C856A00CCEC68 /* ViewController.swift */,
-				21EC15D9209C856A00CCEC68 /* Main.storyboard */,
-				214BDAAF209CDE76000EEC43 /* VC_Ativos.swift */,
-				214BDAB1209CDE8F000EEC43 /* VC_Atrasados.swift */,
-				214BDAAD209CCF3B000EEC43 /* VC_SideMenu.swift */,
-				214BDAAB209CCD83000EEC43 /* VC_Main.swift */,
+				2128543D20A0BF4E00CBCDC7 /* Storyboards */,
+				2128543B20A0BE5900CBCDC7 /* ViewControllers */,
 				21EC15DC209C856B00CCEC68 /* Assets.xcassets */,
-				21EC15DE209C856B00CCEC68 /* LaunchScreen.storyboard */,
 				21EC15E1209C856B00CCEC68 /* Info.plist */,
 			);
 			path = Empresta.ai;
@@ -405,12 +444,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21EC15D8209C856A00CCEC68 /* ViewController.swift in Sources */,
+				2128543420A0BD9200CBCDC7 /* VC_Historico.swift in Sources */,
 				214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */,
 				214BDAAE209CCF3B000EEC43 /* VC_SideMenu.swift in Sources */,
 				214BDAB0209CDE76000EEC43 /* VC_Ativos.swift in Sources */,
+				2128543020A099E600CBCDC7 /* VC_Emprestar.swift in Sources */,
+				2128543620A0BD9C00CBCDC7 /* VC_Perfil.swift in Sources */,
+				2128543820A0BDAC00CBCDC7 /* VC_Configuracoes.swift in Sources */,
+				2128543A20A0BDB700CBCDC7 /* VC_Sobre.swift in Sources */,
 				21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */,
 				214BDAB2209CDE8F000EEC43 /* VC_Atrasados.swift in Sources */,
+				2128543220A0BD4000CBCDC7 /* VC_Contatos.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,7 +632,10 @@
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.ai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -605,7 +652,10 @@
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.ai/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-ai";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -622,7 +672,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -640,7 +694,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -657,7 +715,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -674,7 +736,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NWJLUZKG48;
 				INFOPLIST_FILE = Empresta.aiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "rodrigo.Empresta-aiUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
