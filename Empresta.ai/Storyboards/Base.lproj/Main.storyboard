@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="hsG-dc-fgi">
-                                <rect key="frame" x="0.0" y="113" width="320" height="455"/>
+                                <rect key="frame" x="0.0" y="116" width="320" height="452"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellInicio" textLabel="qOg-TC-Nva" imageView="IaT-kM-zgN" rowHeight="50" style="IBUITableViewCellStyleDefault" id="pRK-G3-97f">
@@ -42,6 +42,9 @@
                                                 </imageView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="WgM-yV-AIo" kind="show" id="x9P-Mp-m0g"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellEmprestar" textLabel="QFs-cb-8KT" imageView="PQ4-fM-mIg" rowHeight="50" style="IBUITableViewCellStyleDefault" id="Kl0-PV-UI3">
                                         <rect key="frame" x="0.0" y="78" width="320" height="50"/>
@@ -64,7 +67,7 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="0xw-EV-hws" kind="show" id="H4h-Ha-M97"/>
+                                            <segue destination="0xw-EV-hws" kind="show" id="PXf-92-YVD"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cellNotificacao" textLabel="Dde-xu-Evi" imageView="lMm-te-vs1" rowHeight="50" style="IBUITableViewCellStyleDefault" id="UYd-OK-alI">
@@ -246,7 +249,7 @@
                             </scrollView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Xm3-WE-lec" customClass="ButtonBarView" customModule="XLPagerTabStrip">
                                 <rect key="frame" x="0.0" y="64" width="320" height="45"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.97780738680000001" green="1" blue="0.047215338859999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="q6Q-Oq-U0e"/>
                                 </constraints>
@@ -271,7 +274,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5ZX-j6-dhN"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Início" id="swq-k2-Kp8">
+                    <navigationItem key="navigationItem" title="Início" largeTitleDisplayMode="never" id="swq-k2-Kp8">
                         <barButtonItem key="leftBarButtonItem" title="Item" image="menu" id="yx2-zh-8RU">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
@@ -320,6 +323,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Wc-FE-2DZ"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="jc2-kU-foa" id="N10-qb-MfZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6s5-Ho-bLQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -357,6 +363,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="NMc-km-R3Y"/>
                     </view>
+                    <connections>
+                        <outlet property="tableView" destination="WMy-rW-Yfx" id="KSd-pM-Cic"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fJs-jv-mM2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -367,11 +376,11 @@
             <objects>
                 <viewController id="0xw-EV-hws" customClass="VC_Emprestar" customModule="Empresta_ai" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="40S-yZ-PnK">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="1320"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="1342"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Du-uH-AXS">
-                                <rect key="frame" x="0.0" y="64" width="320" height="1256"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="1278"/>
                                 <subviews>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="yqB-r9-zcv">
                                         <rect key="frame" x="8" y="37" width="304" height="29"/>
@@ -395,7 +404,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVR-F5-CTt">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVR-F5-CTt">
                                                 <rect key="frame" x="8" y="37" width="288" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="0JR-Qo-buV"/>
@@ -517,7 +526,7 @@
                                                 </constraints>
                                                 <state key="normal" title="Buscar Contato"/>
                                             </button>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZi-ce-EDd">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome:*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZi-ce-EDd">
                                                 <rect key="frame" x="8" y="75" width="288" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="RbT-TB-CtZ"/>
@@ -535,7 +544,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Número:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79e-I7-z0p">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobrenome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="79e-I7-z0p">
                                                 <rect key="frame" x="8" y="142" width="288" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="tSK-ee-VLf"/>
@@ -647,7 +656,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data de início:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6C2-Bb-1Xu">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data de início:*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6C2-Bb-1Xu">
                                                 <rect key="frame" x="8" y="37" width="288" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="zhx-Xk-DuD"/>
@@ -665,7 +674,7 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data da devolução:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inF-87-f31">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Data da devolução:*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="inF-87-f31">
                                                 <rect key="frame" x="8" y="110" width="288" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="7Z4-Ag-4Hn"/>
@@ -706,7 +715,7 @@
                                         </constraints>
                                     </view>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wEb-5f-rG6">
-                                        <rect key="frame" x="8" y="1036" width="304" height="152"/>
+                                        <rect key="frame" x="8" y="1060" width="304" height="152"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detalhes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KsX-Mk-DSC">
                                                 <rect key="frame" x="8" y="8" width="288" height="21"/>
@@ -772,29 +781,42 @@
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qpa-YD-eYp">
-                                        <rect key="frame" x="8" y="1196" width="304" height="50"/>
+                                        <rect key="frame" x="8" y="1220" width="304" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="FxB-c5-FhU"/>
                                         </constraints>
                                         <state key="normal" title="Emprestar"/>
                                     </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="* Campos Obrigatórios" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="IQU-KY-1LO">
+                                        <rect key="frame" x="137" y="1035" width="174.5" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="9jT-Nz-WWv"/>
+                                            <constraint firstAttribute="height" constant="17" id="J9j-ZN-cyw"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="VWf-qG-wHx" secondAttribute="trailing" constant="8" id="1cL-8b-IU3"/>
                                     <constraint firstItem="oxu-0e-AW5" firstAttribute="top" secondItem="T7k-hh-uLJ" secondAttribute="bottom" constant="8" id="51y-nU-7rc"/>
+                                    <constraint firstItem="IQU-KY-1LO" firstAttribute="top" secondItem="VWf-qG-wHx" secondAttribute="bottom" constant="7" id="8UT-A4-u74"/>
+                                    <constraint firstAttribute="trailing" secondItem="IQU-KY-1LO" secondAttribute="trailing" constant="8" id="8YE-9X-l68"/>
                                     <constraint firstItem="wEb-5f-rG6" firstAttribute="leading" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="8" id="BrM-Mq-qjI"/>
-                                    <constraint firstAttribute="bottom" secondItem="qpa-YD-eYp" secondAttribute="bottom" constant="10" id="Fbg-JM-sN2"/>
+                                    <constraint firstAttribute="bottom" secondItem="qpa-YD-eYp" secondAttribute="bottom" constant="8" id="Fbg-JM-sN2"/>
                                     <constraint firstItem="T7k-hh-uLJ" firstAttribute="leading" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="8" id="LQS-Li-psp"/>
                                     <constraint firstItem="qpa-YD-eYp" firstAttribute="top" secondItem="wEb-5f-rG6" secondAttribute="bottom" constant="8" id="MZn-QN-dpY"/>
                                     <constraint firstItem="yqB-r9-zcv" firstAttribute="leading" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="8" id="Mav-10-78A"/>
                                     <constraint firstItem="MwH-fZ-7QN" firstAttribute="top" secondItem="0Du-uH-AXS" secondAttribute="top" constant="8" id="NTO-iL-Xwy"/>
                                     <constraint firstItem="VWf-qG-wHx" firstAttribute="leading" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="8" id="OlK-Zm-Iy0"/>
                                     <constraint firstItem="qpa-YD-eYp" firstAttribute="leading" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="8" id="WQ2-so-4RC"/>
-                                    <constraint firstItem="wEb-5f-rG6" firstAttribute="top" secondItem="VWf-qG-wHx" secondAttribute="bottom" constant="8" id="XlW-u5-FI8"/>
+                                    <constraint firstItem="wEb-5f-rG6" firstAttribute="top" secondItem="VWf-qG-wHx" secondAttribute="bottom" constant="32" id="XlW-u5-FI8"/>
                                     <constraint firstItem="yqB-r9-zcv" firstAttribute="centerX" secondItem="0Du-uH-AXS" secondAttribute="centerX" id="aUc-jE-x0P"/>
                                     <constraint firstAttribute="trailing" secondItem="wEb-5f-rG6" secondAttribute="trailing" constant="8" id="ajI-Bc-LUD"/>
                                     <constraint firstAttribute="trailing" secondItem="T7k-hh-uLJ" secondAttribute="trailing" constant="8" id="bg5-N2-Fn7"/>
                                     <constraint firstItem="MwH-fZ-7QN" firstAttribute="leading" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="8" id="bgq-w7-63J"/>
+                                    <constraint firstItem="IQU-KY-1LO" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="0Du-uH-AXS" secondAttribute="leading" constant="20" symbolic="YES" id="ku6-lO-B7W"/>
                                     <constraint firstItem="yqB-r9-zcv" firstAttribute="top" secondItem="MwH-fZ-7QN" secondAttribute="bottom" constant="8" id="n5o-Dg-EdL"/>
                                     <constraint firstItem="VWf-qG-wHx" firstAttribute="top" secondItem="oxu-0e-AW5" secondAttribute="bottom" constant="8" id="o6q-Gb-X6c"/>
                                     <constraint firstAttribute="trailing" secondItem="oxu-0e-AW5" secondAttribute="trailing" constant="8" id="ovm-oh-9kn"/>
@@ -815,12 +837,57 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Cqt-8q-N7G"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Emprestar" largeTitleDisplayMode="never" id="EPc-XA-Vut"/>
-                    <size key="freeformSize" width="320" height="1320"/>
+                    <navigationItem key="navigationItem" title="Emprestar" largeTitleDisplayMode="never" id="EPc-XA-Vut">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="QLj-OB-7aG">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="Aow-QI-Qcg"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="320" height="1342"/>
+                    <connections>
+                        <outlet property="btnBuscarContato" destination="sEA-eB-eg3" id="mgT-IO-jTp"/>
+                        <outlet property="btnEmprestar" destination="qpa-YD-eYp" id="a9Y-uk-4O9"/>
+                        <outlet property="imgObjetoCamera" destination="xTB-nC-RBe" id="Xky-PJ-ipc"/>
+                        <outlet property="lblCamposObrigatorios" destination="IQU-KY-1LO" id="m26-An-dOe"/>
+                        <outlet property="lblContatoEmail" destination="DJv-Wx-dpC" id="zMg-X2-3Tv"/>
+                        <outlet property="lblContatoNome" destination="fZi-ce-EDd" id="pwb-0Q-2KB"/>
+                        <outlet property="lblContatoNumero" destination="IEB-bQ-Tz7" id="5OA-Sw-uGP"/>
+                        <outlet property="lblContatoSobrenome" destination="79e-I7-z0p" id="GX3-Jg-iXc"/>
+                        <outlet property="lblDataDevolucao" destination="inF-87-f31" id="JDO-eX-VGd"/>
+                        <outlet property="lblDataInicio" destination="6C2-Bb-1Xu" id="Pq5-z0-5fZ"/>
+                        <outlet property="lblDetalhesMensagem" destination="4ao-wE-Fun" id="y27-sr-zT6"/>
+                        <outlet property="lblDetalhesNao" destination="K9G-1m-4if" id="4l9-ce-BPC"/>
+                        <outlet property="lblDetalhesSim" destination="jme-4o-kBZ" id="rMs-fK-hAl"/>
+                        <outlet property="lblEstou" destination="MwH-fZ-7QN" id="JCC-3f-WCZ"/>
+                        <outlet property="lblObjetoCategoria" destination="YTz-pg-0xR" id="ipx-nZ-aHf"/>
+                        <outlet property="lblObjetoDescricao" destination="j0d-Z6-9Gp" id="dfb-Ds-BdI"/>
+                        <outlet property="lblObjetoImagem" destination="oQq-Hm-OyB" id="68Y-pp-V0i"/>
+                        <outlet property="lblObjetoNome" destination="IVR-F5-CTt" id="MSp-er-7xp"/>
+                        <outlet property="lblTituloContato" destination="3OO-fO-eN0" id="eaJ-FV-WUP"/>
+                        <outlet property="lblTituloData" destination="q6y-1p-5Gv" id="W50-zv-if2"/>
+                        <outlet property="lblTituloDetalhes" destination="KsX-Mk-DSC" id="6Ve-Vy-tFA"/>
+                        <outlet property="lblTituloObjeto" destination="hZI-cY-irF" id="OiG-Ge-zjc"/>
+                        <outlet property="segEmprestarPegar" destination="yqB-r9-zcv" id="wQF-Ma-wvy"/>
+                        <outlet property="switSimNao" destination="PSg-Pc-zbd" id="2w9-ev-zgB"/>
+                        <outlet property="txtContatoEmail" destination="MCW-Nc-eqF" id="XfS-jp-I2k"/>
+                        <outlet property="txtContatoNome" destination="mmM-E2-FQd" id="V1I-h2-sMR"/>
+                        <outlet property="txtContatoNumero" destination="QyI-OU-zZX" id="CkP-8j-XbC"/>
+                        <outlet property="txtContatoSobrenome" destination="OQX-70-zGX" id="6bX-Hj-M3a"/>
+                        <outlet property="txtDataDevolucao" destination="mt8-lI-M8d" id="lcf-Jn-fXI"/>
+                        <outlet property="txtDataInicio" destination="zKM-Bk-Uqi" id="LLK-31-rxm"/>
+                        <outlet property="txtObjetoCategoria" destination="QtU-mB-ebb" id="kXD-D0-6F5"/>
+                        <outlet property="txtObjetoDescricao" destination="FRm-18-LJe" id="AL9-dX-Ead"/>
+                        <outlet property="txtObjetoNome" destination="WZV-Yp-gix" id="VDd-6G-QVU"/>
+                        <outlet property="viewContato" destination="oxu-0e-AW5" id="07f-L2-QEP"/>
+                        <outlet property="viewData" destination="VWf-qG-wHx" id="vVd-Px-J4c"/>
+                        <outlet property="viewDetalhes" destination="wEb-5f-rG6" id="9He-kP-1GH"/>
+                        <outlet property="viewObjeto" destination="T7k-hh-uLJ" id="ARA-bC-vDP"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qA2-4S-Qfq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-564" y="1031"/>
+            <point key="canvasLocation" x="-568" y="1043"/>
         </scene>
         <!--Side Menu Navigation Controller-->
         <scene sceneID="fat-mc-8ds">
@@ -828,7 +895,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ric-64-2hG" customClass="UISideMenuNavigationController" customModule="SideMenu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" backIndicatorImage="voltar" largeTitles="YES" id="vRA-ON-kl5">
-                        <rect key="frame" x="0.0" y="20" width="320" height="93"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
@@ -878,7 +945,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Aec-TJ-9Z8">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="Aec-TJ-9Z8" customClass="TVC_Historico" customModule="Empresta_ai" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Aec-TJ-9Z8" id="Me4-fP-GUf">
@@ -898,7 +965,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="TOV-rF-Q5g"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Histórico" largeTitleDisplayMode="never" id="q7m-cG-m4U"/>
+                    <navigationItem key="navigationItem" title="Histórico" largeTitleDisplayMode="never" id="q7m-cG-m4U">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="5Gh-RF-Vl4">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="IhG-eh-gK4"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="Hlz-Ed-1D9" id="EnY-Bj-2DE"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u7j-8m-HgN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -916,7 +992,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hdy-IS-KcB">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="hdy-IS-KcB" customClass="TVC_Contatos" customModule="Empresta_ai" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hdy-IS-KcB" id="Cf5-5T-sXF">
@@ -949,7 +1025,17 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="D81-R9-4Dw"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Contatos" largeTitleDisplayMode="never" id="Tgz-sW-bch"/>
+                    <navigationItem key="navigationItem" title="Contatos" largeTitleDisplayMode="never" id="Tgz-sW-bch">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="0qs-6k-wDS">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="Tn8-iO-mVu"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnAdicionar" destination="CEs-tY-7aj" id="Sr8-Jm-jYB"/>
+                        <outlet property="tableView" destination="mZB-iT-wXz" id="wzI-bY-v9d"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3NR-e9-roA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1070,7 +1156,27 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="o87-UT-d5H"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Perfil" largeTitleDisplayMode="never" id="8cM-6h-2qe"/>
+                    <navigationItem key="navigationItem" title="Perfil" largeTitleDisplayMode="never" id="8cM-6h-2qe">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="pGP-kz-kKr">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="fyx-lR-S45"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="btnSalvar" destination="lUO-X6-G44" id="VHN-Vn-D99"/>
+                        <outlet property="lblCamposObrigatorios" destination="j5x-6b-66y" id="TOF-0A-JDw"/>
+                        <outlet property="lblEmail" destination="MLt-XV-DPb" id="fcB-VY-3cL"/>
+                        <outlet property="lblInformacao" destination="JOv-5m-a1l" id="nFJ-xc-eac"/>
+                        <outlet property="lblInserirDados" destination="n6m-RR-ltg" id="TAJ-b2-S49"/>
+                        <outlet property="lblNome" destination="Xv4-MW-q1Y" id="3Rs-Yr-6TA"/>
+                        <outlet property="lblNumero" destination="n0g-ph-hqq" id="2FD-Q0-06x"/>
+                        <outlet property="lblSobrenome" destination="X5c-3w-wCy" id="nhJ-Uw-YpW"/>
+                        <outlet property="txtEmail" destination="1AP-mH-jAQ" id="RPu-i7-459"/>
+                        <outlet property="txtNome" destination="qYp-1c-wNc" id="cQ5-fg-UEe"/>
+                        <outlet property="txtNumero" destination="6hU-vq-Bki" id="pCq-4z-qYB"/>
+                        <outlet property="txtSobrenome" destination="wNy-3u-YXm" id="ip8-rq-Dle"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NeI-GG-cH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1115,16 +1221,25 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yp6-dF-59H"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Configurações" largeTitleDisplayMode="never" id="uTh-fg-djT"/>
+                    <navigationItem key="navigationItem" title="Configurações" largeTitleDisplayMode="never" id="uTh-fg-djT">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="Rue-fl-8Fq">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="Ei8-QA-TKH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="G8i-mT-BOr" id="7I7-it-OQr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZiX-JK-Qu4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2979" y="632"/>
         </scene>
-        <!--View Controller-->
+        <!--Novo Contato-->
         <scene sceneID="WiP-Tn-3cM">
             <objects>
-                <viewController id="9it-j1-xax" sceneMemberID="viewController">
+                <viewController id="9it-j1-xax" customClass="VC_NovoContato" customModule="Empresta_ai" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MCu-16-W8T">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1153,7 +1268,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobrenome:*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztC-is-trq">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sobrenome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztC-is-trq">
                                         <rect key="frame" x="0.0" y="58.5" width="288" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -1177,7 +1292,7 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail:*" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ene-6X-sQ2">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="E-mail:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ene-6X-sQ2">
                                         <rect key="frame" x="0.0" y="175.5" width="288" height="20.5"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
@@ -1251,10 +1366,26 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="piD-cD-fXS"/>
                     </view>
+                    <connections>
+                        <outlet property="btnSalvar" destination="1CH-qD-iYy" id="DgL-DP-hwV"/>
+                        <outlet property="lblCamposObrigatorios" destination="rgD-8f-GmW" id="Io5-RK-ZXi"/>
+                        <outlet property="lblEmail" destination="Ene-6X-sQ2" id="en9-l3-uaM"/>
+                        <outlet property="lblInformacao" destination="Rp5-uT-hNx" id="UuB-2K-XeE"/>
+                        <outlet property="lblInserirDados" destination="kgf-Z2-Qp2" id="RTf-9D-cFm"/>
+                        <outlet property="lblNome" destination="OUH-QW-gas" id="ZZi-dH-Kvs"/>
+                        <outlet property="lblNumero" destination="Jzs-wi-2wO" id="hdI-ZS-cds"/>
+                        <outlet property="lblSexo" destination="Ni4-IR-4Dy" id="4Nw-Kx-Pcz"/>
+                        <outlet property="lblSobrenome" destination="ztC-is-trq" id="vwE-2P-tv9"/>
+                        <outlet property="segSexo" destination="MCu-16-W8T" id="NW6-xZ-xXm"/>
+                        <outlet property="txtEmail" destination="jXa-h6-94V" id="DSq-TD-5yw"/>
+                        <outlet property="txtNome" destination="KQp-Xr-ytS" id="T6J-nW-26u"/>
+                        <outlet property="txtNumero" destination="bg0-Ll-Vwc" id="7Sw-sf-oyU"/>
+                        <outlet property="txtSobrenome" destination="aJ9-0H-SOH" id="fwf-46-8B5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7LX-Ps-ax5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="99" y="1428"/>
+            <point key="canvasLocation" x="99" y="1451"/>
         </scene>
         <!--Sobre-->
         <scene sceneID="BZT-cc-IXg">
@@ -1277,7 +1408,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="zGw-IX-GOI"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Sobre" largeTitleDisplayMode="never" id="E6p-4V-27h"/>
+                    <navigationItem key="navigationItem" title="Sobre" largeTitleDisplayMode="never" id="E6p-4V-27h">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="hyg-jR-tqV">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="5jo-hZ-LFN"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SV1-8a-rjO" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1286,7 +1423,7 @@
         <!--Notificações-->
         <scene sceneID="IRx-4M-7by">
             <objects>
-                <viewController id="4P0-6Y-wwu" customClass="VC_Configuracoes" customModule="Empresta_ai" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="4P0-6Y-wwu" customClass="VC_Notificacao" customModule="Empresta_ai" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Jgp-hs-ILA">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1302,7 +1439,7 @@
                                 <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="EU0-Wk-Uag">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="EU0-Wk-Uag" customClass="TVC_Notificacao" customModule="Empresta_ai" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="EU0-Wk-Uag" id="xrS-x6-X0q">
@@ -1322,7 +1459,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="aPm-Zl-23o"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Notificações" largeTitleDisplayMode="never" id="NnQ-vy-FGP"/>
+                    <navigationItem key="navigationItem" title="Notificações" largeTitleDisplayMode="never" id="NnQ-vy-FGP">
+                        <barButtonItem key="leftBarButtonItem" image="menu" id="bC7-TB-kTW">
+                            <connections>
+                                <segue destination="ric-64-2hG" kind="presentation" id="hUm-Sd-3Hi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="5Yp-bl-KGS" id="I5x-Tk-B8S"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pzo-bE-y4R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1343,4 +1489,8 @@
         <image name="notificacao" width="25" height="25"/>
         <image name="voltar" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ITf-yy-aqs"/>
+        <segue reference="x9P-Mp-m0g"/>
+    </inferredMetricsTieBreakers>
 </document>

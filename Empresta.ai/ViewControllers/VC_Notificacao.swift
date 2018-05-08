@@ -1,20 +1,19 @@
 //
-//  VC_Ativos.swift
+//  VC_Notificacao.swift
 //  Empresta.ai
 //
-//  Created by Rodrigo Baroni on 04/05/2018.
+//  Created by Rodrigo Baroni on 08/05/2018.
 //  Copyright © 2018 rodrigo. All rights reserved.
 //
 
 import UIKit
-import XLPagerTabStrip
 
-class VC_Ativos: UIViewController, IndicatorInfoProvider {
-    
+class VC_Notificacao: UIViewController {
+
     //MARK: - OUTLETS
     //
     @IBOutlet weak var tableView: UITableView!
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -27,10 +26,6 @@ class VC_Ativos: UIViewController, IndicatorInfoProvider {
     }
     
 
-    func indicatorInfo(for pagerTabStripController: PagerTabStripViewController) -> IndicatorInfo {
-        return IndicatorInfo(title: "Ativos")
-    }
-    
     /*
     // MARK: - Navigation
 

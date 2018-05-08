@@ -10,6 +10,12 @@ import UIKit
 
 class VC_Contatos: UIViewController {
 
+    //MARK: - OUTLETS
+    //
+    @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var btnAdicionar: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

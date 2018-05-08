@@ -10,6 +10,11 @@ import UIKit
 
 class VC_Historico: UIViewController {
 
+    //MARK: - OUTLETS
+    //
+    @IBOutlet weak var tableView: UITableView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -17,11 +17,6 @@ class VC_SideMenu: UIViewController {
         UIApplication.shared.statusBarStyle = .lightContent
     }
     
-//    override func viewWillDisappear(_ animated: Bool) {
-//        super.viewWillDisappear(animated)
-//        UIApplication.shared.statusBarStyle = UIStatusBarStyle.default
-//    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.tableView.delegate = self
@@ -78,16 +73,6 @@ extension VC_SideMenu : UITableViewDelegate, UITableViewDataSource {
         }
         return cell
     }
-    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
-        if (indexPath.row == 0) {
-            self.dismiss(animated: true, completion: nil)
-        }
-        
-    }
-   
-    
-    
 }
 
 

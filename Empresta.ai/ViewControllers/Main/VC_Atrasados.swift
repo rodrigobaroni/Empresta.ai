@@ -11,7 +11,9 @@ import XLPagerTabStrip
 
 class VC_Atrasados: UIViewController, IndicatorInfoProvider {
     
-    
+    //MARK: - OUTLETS
+    //
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -22,6 +22,12 @@
 		21626D5B20A1CD3700AE35EB /* TVC_DetalhesObjeto.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21626D5920A1CD3700AE35EB /* TVC_DetalhesObjeto.xib */; };
 		21626D5F20A1DAA600AE35EB /* TVC_Contatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21626D5D20A1DAA600AE35EB /* TVC_Contatos.swift */; };
 		21626D6020A1DAA600AE35EB /* TVC_Contatos.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21626D5E20A1DAA600AE35EB /* TVC_Contatos.xib */; };
+		21626D6320A20B0800AE35EB /* TVC_Notificacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21626D6120A20B0800AE35EB /* TVC_Notificacao.swift */; };
+		21626D6420A20B0800AE35EB /* TVC_Notificacao.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21626D6220A20B0800AE35EB /* TVC_Notificacao.xib */; };
+		21626D6720A20BB100AE35EB /* TVC_Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21626D6520A20BB100AE35EB /* TVC_Historico.swift */; };
+		21626D6820A20BB100AE35EB /* TVC_Historico.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21626D6620A20BB100AE35EB /* TVC_Historico.xib */; };
+		21626D6A20A2199D00AE35EB /* VC_NovoContato.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21626D6920A2199D00AE35EB /* VC_NovoContato.swift */; };
+		21626D6C20A219B200AE35EB /* VC_Notificacao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21626D6B20A219B200AE35EB /* VC_Notificacao.swift */; };
 		21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21EC15D5209C856A00CCEC68 /* AppDelegate.swift */; };
 		21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15D9209C856A00CCEC68 /* Main.storyboard */; };
 		21EC15DD209C856B00CCEC68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21EC15DC209C856B00CCEC68 /* Assets.xcassets */; };
@@ -64,6 +70,12 @@
 		21626D5920A1CD3700AE35EB /* TVC_DetalhesObjeto.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVC_DetalhesObjeto.xib; sourceTree = "<group>"; };
 		21626D5D20A1DAA600AE35EB /* TVC_Contatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVC_Contatos.swift; sourceTree = "<group>"; };
 		21626D5E20A1DAA600AE35EB /* TVC_Contatos.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVC_Contatos.xib; sourceTree = "<group>"; };
+		21626D6120A20B0800AE35EB /* TVC_Notificacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVC_Notificacao.swift; sourceTree = "<group>"; };
+		21626D6220A20B0800AE35EB /* TVC_Notificacao.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVC_Notificacao.xib; sourceTree = "<group>"; };
+		21626D6520A20BB100AE35EB /* TVC_Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVC_Historico.swift; sourceTree = "<group>"; };
+		21626D6620A20BB100AE35EB /* TVC_Historico.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TVC_Historico.xib; sourceTree = "<group>"; };
+		21626D6920A2199D00AE35EB /* VC_NovoContato.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_NovoContato.swift; sourceTree = "<group>"; };
+		21626D6B20A219B200AE35EB /* VC_Notificacao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Notificacao.swift; sourceTree = "<group>"; };
 		21EC15D2209C856A00CCEC68 /* Empresta.ai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Empresta.ai.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21EC15D5209C856A00CCEC68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		21EC15DA209C856A00CCEC68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +138,8 @@
 				2128543520A0BD9C00CBCDC7 /* VC_Perfil.swift */,
 				2128543720A0BDAC00CBCDC7 /* VC_Configuracoes.swift */,
 				2128543920A0BDB700CBCDC7 /* VC_Sobre.swift */,
+				21626D6920A2199D00AE35EB /* VC_NovoContato.swift */,
+				21626D6B20A219B200AE35EB /* VC_Notificacao.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -156,6 +170,10 @@
 				21626D5920A1CD3700AE35EB /* TVC_DetalhesObjeto.xib */,
 				21626D5D20A1DAA600AE35EB /* TVC_Contatos.swift */,
 				21626D5E20A1DAA600AE35EB /* TVC_Contatos.xib */,
+				21626D6120A20B0800AE35EB /* TVC_Notificacao.swift */,
+				21626D6220A20B0800AE35EB /* TVC_Notificacao.xib */,
+				21626D6520A20BB100AE35EB /* TVC_Historico.swift */,
+				21626D6620A20BB100AE35EB /* TVC_Historico.xib */,
 			);
 			path = TBCells;
 			sourceTree = "<group>";
@@ -348,7 +366,9 @@
 				21626D6020A1DAA600AE35EB /* TVC_Contatos.xib in Resources */,
 				21EC15E0209C856B00CCEC68 /* LaunchScreen.storyboard in Resources */,
 				21EC15DD209C856B00CCEC68 /* Assets.xcassets in Resources */,
+				21626D6420A20B0800AE35EB /* TVC_Notificacao.xib in Resources */,
 				21EC15DB209C856A00CCEC68 /* Main.storyboard in Resources */,
+				21626D6820A20BB100AE35EB /* TVC_Historico.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +486,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21626D6320A20B0800AE35EB /* TVC_Notificacao.swift in Sources */,
+				21626D6A20A2199D00AE35EB /* VC_NovoContato.swift in Sources */,
 				21626D5A20A1CD3700AE35EB /* TVC_DetalhesObjeto.swift in Sources */,
 				2128543420A0BD9200CBCDC7 /* VC_Historico.swift in Sources */,
 				214BDAAC209CCD83000EEC43 /* VC_Main.swift in Sources */,
@@ -474,6 +496,8 @@
 				2128543020A099E600CBCDC7 /* VC_Emprestar.swift in Sources */,
 				2128543620A0BD9C00CBCDC7 /* VC_Perfil.swift in Sources */,
 				2128543820A0BDAC00CBCDC7 /* VC_Configuracoes.swift in Sources */,
+				21626D6720A20BB100AE35EB /* TVC_Historico.swift in Sources */,
+				21626D6C20A219B200AE35EB /* VC_Notificacao.swift in Sources */,
 				2128543A20A0BDB700CBCDC7 /* VC_Sobre.swift in Sources */,
 				21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */,
 				214BDAB2209CDE8F000EEC43 /* VC_Atrasados.swift in Sources */,

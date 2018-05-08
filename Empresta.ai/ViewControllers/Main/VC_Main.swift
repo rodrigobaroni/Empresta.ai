@@ -33,23 +33,23 @@ class VC_Main: ButtonBarPagerTabStripViewController {
     func setupSideMenu() {
         SideMenuManager.default.menuFadeStatusBar = false
         let screenSize = UIScreen.main.bounds
-        SideMenuManager.default.menuWidth = max(round(min((screenSize.width), (screenSize.height)) * 0.80), 240)
+        SideMenuManager.default.menuWidth = max(round(min((screenSize.width), (screenSize.height)) * 0.75), 240)
     }
     
     func setupPaginController() {
         settings.style.buttonBarBackgroundColor = UIColor.darkGray
-        settings.style.buttonBarItemBackgroundColor = .white
+        settings.style.buttonBarItemBackgroundColor = UIColor.green
         settings.style.selectedBarBackgroundColor = purpleInspireColor
         settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
-        settings.style.selectedBarHeight = 2.0
+        settings.style.selectedBarHeight = 0.5
         settings.style.buttonBarMinimumLineSpacing = 0
-        settings.style.buttonBarItemTitleColor = .black
+        settings.style.buttonBarItemTitleColor = UIColor.red
         settings.style.buttonBarItemsShouldFillAvailiableWidth = true
         settings.style.buttonBarLeftContentInset = 0
         settings.style.buttonBarRightContentInset = 0
         changeCurrentIndexProgressive = { [weak self] (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
             guard changeCurrentIndex == true else { return }
-            oldCell?.label.textColor = .black
+            oldCell?.label.textColor = UIColor.red
             newCell?.label.textColor = self?.purpleInspireColor
         }
     }
