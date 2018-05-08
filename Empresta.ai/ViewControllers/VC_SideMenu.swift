@@ -42,7 +42,7 @@ extension VC_SideMenu : UITableViewDelegate, UITableViewDataSource {
         return 1
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 7
+        return 8
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
@@ -56,18 +56,21 @@ extension VC_SideMenu : UITableViewDelegate, UITableViewDataSource {
             cell = self.tableView.dequeueReusableCell(withIdentifier: "cellEmprestar")!
             return cell
         case 2:
-            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellContatos")!
+            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellNotificacao")!
             return cell
         case 3:
-            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellHistorico")!
+            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellContatos")!
             return cell
         case 4:
-            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellPerfil")!
+            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellHistorico")!
             return cell
         case 5:
-            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellConfiguracoes")!
+            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellPerfil")!
             return cell
         case 6:
+            cell = self.tableView.dequeueReusableCell(withIdentifier: "cellConfiguracoes")!
+            return cell
+        case 7:
             cell = self.tableView.dequeueReusableCell(withIdentifier: "cellSobre")!
             return cell
         default:
