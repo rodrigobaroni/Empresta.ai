@@ -41,12 +41,12 @@ class VC_Main: ButtonBarPagerTabStripViewController {
         settings.style.buttonBarItemBackgroundColor = UIColor.green
         settings.style.selectedBarBackgroundColor = purpleInspireColor
         settings.style.buttonBarItemFont = .boldSystemFont(ofSize: 14)
-        settings.style.selectedBarHeight = 0.5
-        settings.style.buttonBarMinimumLineSpacing = 0
+        settings.style.selectedBarHeight = 1.0
+        settings.style.buttonBarMinimumLineSpacing = 1
         settings.style.buttonBarItemTitleColor = UIColor.red
         settings.style.buttonBarItemsShouldFillAvailiableWidth = true
-        settings.style.buttonBarLeftContentInset = 0
-        settings.style.buttonBarRightContentInset = 0
+        settings.style.buttonBarLeftContentInset = 0.5
+        settings.style.buttonBarRightContentInset = 0.5
         changeCurrentIndexProgressive = { [weak self] (oldCell: ButtonBarViewCell?, newCell: ButtonBarViewCell?, progressPercentage: CGFloat, changeCurrentIndex: Bool, animated: Bool) -> Void in
             guard changeCurrentIndex == true else { return }
             oldCell?.label.textColor = UIColor.red

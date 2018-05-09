@@ -10,6 +10,10 @@ import UIKit
 
 class TVC_Contatos: UITableViewCell {
 
+    @IBOutlet weak var viewBase: UIView!
+    @IBOutlet weak var imgViewContato: UIImageView!
+    @IBOutlet weak var lblNomeContato: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

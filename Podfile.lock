@@ -5,6 +5,7 @@ PODS:
   - Realm/Headers (3.5.0)
   - RealmSwift (3.5.0):
     - Realm (= 3.5.0)
+  - RSReusable (1.0.12)
   - SCLAlertView (0.8)
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
@@ -18,6 +19,7 @@ PODS:
 DEPENDENCIES:
   - Fusuma
   - RealmSwift (~> 3.5)
+  - RSReusable
   - SCLAlertView
   - SDWebImage (~> 4.0)
   - SideMenu
@@ -31,6 +33,7 @@ SPEC REPOS:
     - Fusuma
     - Realm
     - RealmSwift
+    - RSReusable
     - SCLAlertView
     - SDWebImage
     - SideMenu
@@ -43,6 +46,7 @@ SPEC CHECKSUMS:
   Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
   Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
   RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
+  RSReusable: e7888dff90fbaf01b9b01169875730be4a04e818
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
@@ -51,6 +55,6 @@ SPEC CHECKSUMS:
   "UITextField+Shake": 298ac5a0f239d731bdab999b19b628c956ca0ac3
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: c454b3fa256add42c3fde0bdef25a6890c2b9c5a
+PODFILE CHECKSUM: 32d2dfce0563d72d97a289d88ad1f55945d4ef11
 
 COCOAPODS: 1.5.0

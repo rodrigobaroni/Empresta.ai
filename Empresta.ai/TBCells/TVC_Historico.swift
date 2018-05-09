@@ -10,6 +10,9 @@ import UIKit
 
 class TVC_Historico: UITableViewCell {
 
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var lblDescricaoHistorico: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

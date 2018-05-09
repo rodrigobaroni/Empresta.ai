@@ -16,6 +16,7 @@ target 'Empresta.ai' do
 	pod 'UITextField+Shake', '~> 1.2'
 	pod 'TextFieldEffects'
 	pod 'SCLAlertView'
+    pod 'IQKeyboardManagerSwift'
 
   target 'Empresta.aiTests' do
     inherit! :search_paths

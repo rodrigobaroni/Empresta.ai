@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		15045889718A6B72D06F9B37 /* Pods_Empresta_ai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5269FDD756D7AF650E0B8873 /* Pods_Empresta_ai.framework */; };
+		21265E8920A35BAA00E21E62 /* PaletaDeCores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21265E8820A35BAA00E21E62 /* PaletaDeCores.swift */; };
 		2128543020A099E600CBCDC7 /* VC_Emprestar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128542F20A099E600CBCDC7 /* VC_Emprestar.swift */; };
 		2128543220A0BD4000CBCDC7 /* VC_Contatos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543120A0BD4000CBCDC7 /* VC_Contatos.swift */; };
 		2128543420A0BD9200CBCDC7 /* VC_Historico.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2128543320A0BD9200CBCDC7 /* VC_Historico.swift */; };
@@ -56,6 +57,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21265E8820A35BAA00E21E62 /* PaletaDeCores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaletaDeCores.swift; sourceTree = "<group>"; };
 		2128542F20A099E600CBCDC7 /* VC_Emprestar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Emprestar.swift; sourceTree = "<group>"; };
 		2128543120A0BD4000CBCDC7 /* VC_Contatos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Contatos.swift; sourceTree = "<group>"; };
 		2128543320A0BD9200CBCDC7 /* VC_Historico.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC_Historico.swift; sourceTree = "<group>"; };
@@ -209,6 +211,7 @@
 				21626D5C20A1CD4900AE35EB /* TBCells */,
 				21EC15DC209C856B00CCEC68 /* Assets.xcassets */,
 				21EC15E1209C856B00CCEC68 /* Info.plist */,
+				21265E8820A35BAA00E21E62 /* PaletaDeCores.swift */,
 			);
 			path = Empresta.ai;
 			sourceTree = "<group>";
@@ -451,6 +454,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Empresta.ai/Pods-Empresta.ai-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Fusuma/Fusuma.framework",
+				"${BUILT_PRODUCTS_DIR}/RSReusable/Reusable.framework",
 				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
 				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SCLAlertView/SCLAlertView.framework",
@@ -464,6 +468,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Fusuma.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reusable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SCLAlertView.framework",
@@ -498,6 +503,7 @@
 				2128543820A0BDAC00CBCDC7 /* VC_Configuracoes.swift in Sources */,
 				21626D6720A20BB100AE35EB /* TVC_Historico.swift in Sources */,
 				21626D6C20A219B200AE35EB /* VC_Notificacao.swift in Sources */,
+				21265E8920A35BAA00E21E62 /* PaletaDeCores.swift in Sources */,
 				2128543A20A0BDB700CBCDC7 /* VC_Sobre.swift in Sources */,
 				21EC15D6209C856A00CCEC68 /* AppDelegate.swift in Sources */,
 				214BDAB2209CDE8F000EEC43 /* VC_Atrasados.swift in Sources */,

@@ -76,6 +76,7 @@ class VC_Emprestar: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.setupLayout()
     }
     /*
     // MARK: - Navigation
@@ -86,6 +87,100 @@ class VC_Emprestar: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
+    //MARK: - SetupLayout
+    
+    func setupLayout() {
+        self.setupLabels()
+        self.setupView()
+        self.setupButtonsSliderSegment()
+        self.setupTextFields()
+    }
+    
+    func setupView() {
+        self.view.backgroundColor = PaletaDeCores.setupColor(color: .emerald)
+        //
+        self.viewObjeto.backgroundColor = PaletaDeCores.setupColor(color: .midnightBlue)
+        self.viewObjeto.layer.cornerRadius = 8
+        self.viewObjeto.layer.borderWidth = 2
+        //
+        self.viewContato.backgroundColor = PaletaDeCores.setupColor(color: .midnightBlue)
+        self.viewContato.layer.cornerRadius = 8
+        self.viewContato.layer.borderWidth = 2
+        //
+        self.viewData.backgroundColor = PaletaDeCores.setupColor(color: .midnightBlue)
+        self.viewData.layer.cornerRadius = 8
+        self.viewData.layer.borderWidth = 2
+        //
+        self.viewDetalhes.backgroundColor = PaletaDeCores.setupColor(color: .midnightBlue)
+        self.viewDetalhes.layer.cornerRadius = 8
+        self.viewDetalhes.layer.borderWidth = 2
+        
+    }
+    func setupLabels() {
+        self.lblEstou.textColor = .black
+        self.lblEstou.font.withSize(20.0)
+        //
+        self.lblTituloObjeto.textColor = .white
+        self.lblObjetoNome.textColor = .white
+        self.lblObjetoDescricao.textColor = .white
+        self.lblObjetoCategoria.textColor = .white
+        self.lblObjetoImagem.textColor = .white
+        self.lblTituloContato.textColor = .white
+        self.lblContatoNome.textColor = .white
+        self.lblContatoSobrenome.textColor = .white
+        self.lblContatoNumero.textColor = .white
+        self.lblContatoEmail.textColor = .white
+        self.lblTituloData.textColor = .white
+        self.lblDataInicio.textColor = .white
+        self.lblDataDevolucao.textColor = .white
+        self.lblCamposObrigatorios.textColor = .black
+        self.lblTituloDetalhes.textColor = .white
+        self.lblDetalhesMensagem.textColor = .white
+        self.lblDetalhesNao.textColor = .white
+        self.lblDetalhesSim.textColor = .white
+    }
+    func setupTextFields() {
+        
+    }
+    func setupButtonsSliderSegment() {
+        //
+        self.btnBuscarContato.setTitleColor(.white ,for: .normal)
+        self.btnBuscarContato.layer.cornerRadius = 8
+        self.btnBuscarContato.backgroundColor = PaletaDeCores.setupColor(color: .belizeHole)
+        //
+        self.btnEmprestar.setTitle("Emprestar", for: .normal)
+        self.btnEmprestar.setTitleColor(.white, for: .normal)
+        self.btnEmprestar.layer.cornerRadius = 8
+        self.btnEmprestar.backgroundColor = PaletaDeCores.setupColor(color: .belizeHole)
+        //
+        self.segEmprestarPegar.tintColor = PaletaDeCores.setupColor(color: .midnightBlue)
+        self.segEmprestarPegar.backgroundColor = .white
+        self.segEmprestarPegar.layer.cornerRadius = 8
+        //
+    }
+    
+    //MARK: - Actions
+    
+    
+    @IBAction func actionSegEmprestar(_ sender: UISegmentedControl) {
+        switch sender.selectedSegmentIndex {
+        case 0:
+            self.lblTituloContato.text = "Dados para contato"
+            self.btnEmprestar.setTitle("Emprestar", for: .normal)
+            self.lblDetalhesMensagem.text = "Gostaria de enviar um e-mail com todas as informações referentes ao empréstimo realizado para o seu contato?"
+            self.title = "Emprestar"
+            print("Emprestar")
+        case 1:
+            print("Pegar emprestado")
+            self.lblTituloContato.text = "Dados do dono do objeto"
+            self.btnEmprestar.setTitle("Pegar Emprestado", for: .normal)
+            self.lblDetalhesMensagem.text = "Gostaria de enviar um e-mail com todas as informações referentes ao empréstimo realizado para o dono?"
+            self.title = "Pegar Emprestado"
+        default:
+            print("default")
+        }
+    }
+    
+    
     
 }

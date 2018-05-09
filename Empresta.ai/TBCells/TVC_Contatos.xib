@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="74" id="KGk-i7-Jjw" customClass="TVC_Contatos" customModule="Empresta_ai" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellContatos" rowHeight="74" id="KGk-i7-Jjw" customClass="TVC_Contatos" customModule="Empresta_ai" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="320" height="74"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
@@ -25,8 +26,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="6Ea-ah-FqF">
                                 <rect key="frame" x="8" y="8" width="58" height="58"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="58" id="Ger-74-aYR"/>
-                                    <constraint firstAttribute="height" constant="58" id="nb2-U4-aZp"/>
+                                    <constraint firstAttribute="width" constant="58" id="Emf-Ns-ncI"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome do Contato" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1dE-1s-5K9">
@@ -38,13 +38,13 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="6Ea-ah-FqF" secondAttribute="bottom" constant="8" id="2PJ-Qh-VZR"/>
                             <constraint firstItem="1dE-1s-5K9" firstAttribute="top" secondItem="xxh-id-Prc" secondAttribute="top" constant="8" id="3bO-Ie-3kT"/>
-                            <constraint firstItem="1dE-1s-5K9" firstAttribute="leading" secondItem="6Ea-ah-FqF" secondAttribute="trailing" constant="8" id="IA8-QY-jWY"/>
-                            <constraint firstItem="6Ea-ah-FqF" firstAttribute="top" secondItem="xxh-id-Prc" secondAttribute="top" constant="8" id="apF-cq-dJ2"/>
-                            <constraint firstItem="6Ea-ah-FqF" firstAttribute="leading" secondItem="xxh-id-Prc" secondAttribute="leading" constant="8" id="dE6-u7-zPy"/>
+                            <constraint firstItem="6Ea-ah-FqF" firstAttribute="top" secondItem="1dE-1s-5K9" secondAttribute="top" id="3kG-w1-H7K"/>
+                            <constraint firstItem="6Ea-ah-FqF" firstAttribute="bottom" secondItem="1dE-1s-5K9" secondAttribute="bottom" id="HPe-1c-5JY"/>
+                            <constraint firstItem="6Ea-ah-FqF" firstAttribute="leading" secondItem="xxh-id-Prc" secondAttribute="leadingMargin" id="fjt-rF-qIU"/>
                             <constraint firstAttribute="bottom" secondItem="1dE-1s-5K9" secondAttribute="bottom" constant="8" id="jQY-YS-i4Y"/>
                             <constraint firstAttribute="trailing" secondItem="1dE-1s-5K9" secondAttribute="trailing" constant="8" id="tza-bF-4hW"/>
+                            <constraint firstItem="1dE-1s-5K9" firstAttribute="leading" secondItem="6Ea-ah-FqF" secondAttribute="trailing" constant="8" symbolic="YES" id="z8c-X7-zl1"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -56,6 +56,11 @@
                 </constraints>
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgViewContato" destination="6Ea-ah-FqF" id="GeP-q6-0K8"/>
+                <outlet property="lblNomeContato" destination="1dE-1s-5K9" id="vCX-9f-e44"/>
+                <outlet property="viewBase" destination="xxh-id-Prc" id="cOp-3d-rhB"/>
+            </connections>
             <point key="canvasLocation" x="34" y="69"/>
         </tableViewCell>
     </objects>

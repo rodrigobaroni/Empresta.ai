@@ -8,8 +8,9 @@
 
 import UIKit
 import XLPagerTabStrip
+import Reusable
 
-class VC_Ativos: UIViewController, IndicatorInfoProvider {
+class VC_Ativos: UIViewController, IndicatorInfoProvider{
     
     //MARK: - OUTLETS
     //
@@ -17,7 +18,7 @@ class VC_Ativos: UIViewController, IndicatorInfoProvider {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.setupTableView()
         // Do any additional setup after loading the view.
     }
 
@@ -41,4 +42,39 @@ class VC_Ativos: UIViewController, IndicatorInfoProvider {
     }
     */
 
+    func setupTableView() {
+        self.tableView.delegate = self
+        self.tableView.dataSource = self
+        let nib = UINib.init(nibName: "TVC_DetalhesObjeto", bundle: nil)
+        self.tableView.register(nib, forCellReuseIdentifier: "cellAtivos")
+    }
+    
+}
+
+extension VC_Ativos : UITableViewDelegate, UITableViewDataSource{
+    
+    // MARK: - Table view data source
+    
+    func numberOfSections(in tableView: UITableView) -> Int {
+        // #warning Incomplete implementation, return the number of sections
+        return 1
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        // #warning Incomplete implementation, return the number of rows
+        return 10
+    }
+    
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tableView.dequeueReusableCell(withIdentifier: "cellAtivos", for: indexPath) as! TVC_DetalhesObjeto
+        
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 87
+    }
+ 
+    
 }

@@ -10,6 +10,14 @@ import UIKit
 
 class TVC_DetalhesObjeto: UITableViewCell {
 
+    @IBOutlet weak var viewBase: UIView!
+    @IBOutlet weak var lblCor: UILabel!
+    @IBOutlet weak var imgView: UIImageView!
+    @IBOutlet weak var lblNomeObjeto: UILabel!
+    @IBOutlet weak var lblInformacao: UILabel!
+    @IBOutlet weak var lblContagemDias: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
