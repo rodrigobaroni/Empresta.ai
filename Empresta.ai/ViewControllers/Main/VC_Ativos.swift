@@ -8,7 +8,6 @@
 
 import UIKit
 import XLPagerTabStrip
-import Reusable
 
 class VC_Ativos: UIViewController, IndicatorInfoProvider{
     

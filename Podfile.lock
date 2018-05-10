@@ -1,60 +1,69 @@
 PODS:
   - Fusuma (1.2.4)
+  - IQDropDownTextField (1.1.1)
+  - IQKeyboardManagerSwift (6.0.2)
   - Realm (3.5.0):
     - Realm/Headers (= 3.5.0)
   - Realm/Headers (3.5.0)
   - RealmSwift (3.5.0):
     - Realm (= 3.5.0)
-  - RSReusable (1.0.12)
+  - RSKGrowingTextView (3.0.0):
+    - RSKPlaceholderTextView (= 3.0.0)
+  - RSKPlaceholderTextView (3.0.0)
   - SCLAlertView (0.8)
   - SDWebImage (4.3.3):
     - SDWebImage/Core (= 4.3.3)
   - SDWebImage/Core (4.3.3)
   - SideMenu (3.1.5)
+  - SkyFloatingLabelTextField (3.4.1)
   - SwiftMoment (0.7)
-  - TextFieldEffects (1.4.0)
-  - "UITextField+Shake (1.2.1)"
   - XLPagerTabStrip (8.0.1)
 
 DEPENDENCIES:
   - Fusuma
+  - IQDropDownTextField
+  - IQKeyboardManagerSwift
   - RealmSwift (~> 3.5)
-  - RSReusable
+  - RSKGrowingTextView
+  - RSKPlaceholderTextView
   - SCLAlertView
   - SDWebImage (~> 4.0)
   - SideMenu
+  - SkyFloatingLabelTextField
   - SwiftMoment
-  - TextFieldEffects
-  - "UITextField+Shake (~> 1.2)"
   - XLPagerTabStrip (~> 8.0)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Fusuma
+    - IQDropDownTextField
+    - IQKeyboardManagerSwift
     - Realm
     - RealmSwift
-    - RSReusable
+    - RSKGrowingTextView
+    - RSKPlaceholderTextView
     - SCLAlertView
     - SDWebImage
     - SideMenu
+    - SkyFloatingLabelTextField
     - SwiftMoment
-    - TextFieldEffects
-    - "UITextField+Shake"
     - XLPagerTabStrip
 
 SPEC CHECKSUMS:
   Fusuma: e85c394878a2e1549c67140ba7c038aff8d7581c
+  IQDropDownTextField: 3d2e5728a2b83ff5dbb14cb9b497a80005124cbe
+  IQKeyboardManagerSwift: 59d4b0e140bc546c3c76ae5bb35b3dafd10b8172
   Realm: 0378021c424e4e2bd6a0e63b27881e929d9b9ad1
   RealmSwift: 3322562622fda2ad596985ead4d8d8be30cf838c
-  RSReusable: e7888dff90fbaf01b9b01169875730be4a04e818
+  RSKGrowingTextView: 6bcc9d4565ce4a66de4b7c42875439bde99dab21
+  RSKPlaceholderTextView: 0ce73a19998e236323b3f1f16bf4a4e4a76c2c28
   SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
   SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
   SideMenu: 47dbf9e4d878062d8994aed43f6e4bf6c1fea30b
+  SkyFloatingLabelTextField: 8085f20f57f74a00cfcae58099299faa1a971035
   SwiftMoment: dc6dd27012e267819104cbb03f74ff9192dd0b42
-  TextFieldEffects: 4ee41b5216e674d55fb6ac25107bf1af7629176f
-  "UITextField+Shake": 298ac5a0f239d731bdab999b19b628c956ca0ac3
   XLPagerTabStrip: c908b17cbf42fcd2598ee1adfc49bae25444d88a
 
-PODFILE CHECKSUM: 32d2dfce0563d72d97a289d88ad1f55945d4ef11
+PODFILE CHECKSUM: fd0696f12db63f65f76cc22079a499ce29435ded
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2

@@ -14,10 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "1D0B727A4DCF2197D06DC5645F0C13D9"
-               BlueprintName = "Realm"
+               BlueprintIdentifier = "D1C3AD01B1E17DA118724A8545A4844D"
+               BlueprintName = "RSKGrowingTextView"
                ReferencedContainer = "container:Pods.xcodeproj"
-               BuildableName = "Realm.framework">
+               BuildableName = "RSKGrowingTextView.framework">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

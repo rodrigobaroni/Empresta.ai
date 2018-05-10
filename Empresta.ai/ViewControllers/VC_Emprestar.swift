@@ -121,8 +121,8 @@ class VC_Emprestar: UIViewController {
         self.lblEstou.font.withSize(20.0)
         //
         self.lblTituloObjeto.textColor = .white
-        self.lblObjetoNome.textColor = .white
-        self.lblObjetoDescricao.textColor = .white
+        //self.lblObjetoNome.textColor = .white
+        //self.lblObjetoDescricao.textColor = .white
         self.lblObjetoCategoria.textColor = .white
         self.lblObjetoImagem.textColor = .white
         self.lblTituloContato.textColor = .white
